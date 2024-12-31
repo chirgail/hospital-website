@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hospital Website - Home</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="./main.js"></script>
+
+</head>
+<body>
+    <header>
+        <div class="top-bar">
+            <p>Email: example@mail.com</p>
+            <p>Helpline Number: +91 9876543210</p>
+        </div>
+        <nav class="navbar">
+            <div class="logo">LOGO NEEDED (TUHIN)</div>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Team</a></li>
+            </ul>
+            <a href="#" class="btn-primary">Book An Appointment</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Protecting Your Health with Quality and Care</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <div class="hero-buttons">
+                <a href="#" class="btn-primary">Find A Doctor</a>
+                <a href="#" class="btn-secondary">Learn More</a>
+            </div>
+        </div>
+        <div class="hero-image">
+            <img src="images/doctor.png" alt="Doctor">
+        </div>
+    </section>
+
+    <section class="services">
+        <h2>Services We Offer</h2>
+        <div class="service-cards">
+            <div class="card">
+                <h3>OPD & IPD Department</h3>
+                <p>Outpatient and inpatient services for various health issues.</p>
+                <a href="#">Read More</a>
+            </div>
+            <div class="card">
+                <h3>NICU</h3>
+                <p>Specialized care for newborns.</p>
+                <a href="#">Read More</a>
+            </div>
+            <div class="card">
+                <h3>Pharmacy</h3>
+                <p>Providing essential medications and supplies.</p>
+                <a href="#">Read More</a>
+            </div>
+            <div class="card">
+                <h3>CCU</h3>
+                <p>Coronary care unit for critical conditions.</p>
+                <a href="#">Read More</a>
+            </div>
+        </div>
+        <a href="#" class="btn-primary">See All Services</a>
+    </section>
+
+    <section class="why-choose-us">
+        <h2>Why Choose Us?</h2>
+        <div class="features">
+            <div class="feature">
+                <h3>24/7 Consultation</h3>
+                <p>Access expert guidance anytime.</p>
+            </div>
+            <div class="feature">
+                <h3>Instant Scheduling</h3>
+                <p>Book appointments with ease.</p>
+            </div>
+            <div class="feature">
+                <h3>Top Rated Service</h3>
+                <p>Highly rated by our patients.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonials">
+        <h2>Here's What Our Great Customers Say</h2>
+        <div class="testimonial">
+            <p>"I received world-class care from Dr. Emily Thompson. Highly recommended!"</p>
+            <h4>- Stephen G.</h4>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>LOGO NEEDED (Tuhin)</h4>
+                <p>Providing the best care for our patients since inception.</p>
+            </div>
+            <div class="footer-section">
+                <h4>Services</h4>
+                <ul>
+                    <li>General Consultation</li>
+                    <li>Pediatric Care</li>
+                    <li>Specialized Treatments</li>
+                    <li>Health Screenings</li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Team</li>
+                </ul>
+            </div>
+        </div>
+        <p>&copy; 2024 Doctors. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book an Appointment</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">LOGO NEEDED (TUHIN)</div>
+            <nav>
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="team.html">Team</a></li>
+                    <li><a href="book-appointment.html">Book An Appointment</a></li>
+                </ul>
+            </nav>
+            <div class="contact-info">
+                <p>Email: example@gmail.com</p>
+                <p>Helpline: +91 1234567891</p>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="appointment">
+            <div class="container">
+                <h1>Book an Appointment</h1>
+                <p>Please fill out the form, and we will get in touch with you as quickly as possible to schedule your visit.</p>
+
+                <form>
+                    <div class="form-group">
+                        <label for="service">Select Your Service</label>
+                        <select id="service" name="service">
+                            <option value="icu">ICU</option>
+                            <option value="general">General Consultation</option>
+                            <option value="pediatric">Pediatric Care</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="gender">Gender</label>
+                        <select id="gender" name="gender">
+                            <option value="male">Male</option>
+                            <option value="female">Female</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="age">Age</label>
+                        <input type="number" id="age" name="age" placeholder="Enter your age">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" placeholder="Your Name">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="phone">Phone Number</label>
+                        <input type="text" id="phone" name="phone" placeholder="Your Phone Number">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="Your Email">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="date">Select Date</label>
+                        <input type="date" id="date" name="date">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Message (Optional)</label>
+                        <textarea id="message" name="message" rows="4" placeholder="Any additional information"></textarea>
+                    </div>
+
+                    <div class="form-actions">
+                        <button type="submit">Submit</button>
+                        <button type="reset">Cancel</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+
+        <section class="redirect">
+            <div class="container">
+                <h2>Want to explore our services?</h2>
+                <a class="btn" href="home.html">Go to Home Page</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Doctors. All rights reserved.</p>
+            <div class="footer-links">
+                <a href="#">Privacy</a>
+                <a href="#">Terms</a>
+                <a href="#">Help</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
+
