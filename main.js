@@ -33,7 +33,7 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 
     form.addEventListener("reset", () => {
-        (confirm("Do you really want to clear the form?")) {
+        (confirm("Do you really want to clear the form?")); {
             form.reset();
         }
     });
